@@ -1,0 +1,214 @@
+:root {
+    --primary: #3F51B5;
+    --accent: #FF4081;
+    --dark: #1a1a1a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark);
+    padding-top: 75px; /* Spațiu optim pentru navbar fix */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR AJUSTAT PENTRU LOGO PĂTRAT */
+.custom-navbar {
+    background-color: var(--primary) !important;
+    padding: 10px 0; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center;
+}
+
+/* Logo complet pătrat */
+.navbar-brand img {
+    object-fit: cover;
+    border-radius: 4px !important; /* Colțuri foarte puțin rotunjite pentru aspect profesional */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 15px !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: var(--accent) !important;
+}
+
+/* HERO SECTION AERISIT */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary) 0%, #2a3b94 100%);
+    color: #fff;
+    padding: 60px 0; /* Spațiu mediu, echilibrat */
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+/* SECȚIUNI ȘI UTILS */
+section {
+    padding: 65px 0; /* Spațierea perfectă sus/jos între blocuri */
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.max-width-700 {
+    max-width: 700px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* BUTOANE */
+.btn-primary {
+    background-color: var(--accent);
+    border: none;
+    padding: 10px 24px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #e91e63;
+}
+
+.btn-outline-light {
+    padding: 10px 24px;
+    font-weight: 500;
+}
+:root {
+    --primary: #3F51B5;  /* Indigo oficial */
+    --accent: #FF4081;   /* Roz Neon oficial */
+    --dark: #1a1a1a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark);
+    padding-top: 75px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR INDIGO */
+.custom-navbar {
+    background-color: var(--primary) !important;
+    padding: 10px 0; 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.navbar-brand img {
+    object-fit: cover;
+    border-radius: 4px !important;
+}
+
+/* BACKGROUND CUSTOM PENTRU HEADER */
+.bg-custom-indigo {
+    background: linear-gradient(135deg, var(--primary) 0%, #2a3b94 100%) !important;
+}
+
+/* BADGE-URI PROIECTE */
+.bg-indigo-subtle {
+    background-color: rgba(63, 81, 181, 0.1) !important;
+}
+.text-indigo {
+    color: var(--primary) !important;
+}
+.text-accent {
+    color: var(--accent) !important;
+}
+
+/* BUTOANE FILTRARE CU PALETA CORECTĂ */
+.filter-btn {
+    border: 1px solid var(--primary) !important;
+    color: var(--primary) !important;
+    background-color: transparent;
+    padding: 6px 16px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: white !important;
+}
+
+/* BUTOANE GENERALE ROZ NEON */
+.btn-custom-accent {
+    background-color: var(--accent) !important;
+    border: none !important;
+    transition: background-color 0.2s ease;
+}
+
+.btn-custom-accent:hover {
+    background-color: #e91e63 !important;
+}
+
+/* EFECT HOVER IMAGINI */
+.project-img-container {
+    overflow: hidden;
+}
+.project-img-container img {
+    transition: transform 0.4s ease;
+}
+.card:hover .project-img-container img {
+    transform: scale(1.05);
+}
+/* Culori Globale Custom */
+:root {
+    --primary: #3F51B5;       /* Indigo Oficial */
+    --accent: #FF4081;        /* Roz Neon / Accent */
+}
+
+/* Clase Utilitare de Culoare */
+.bg-custom-indigo {
+    background-color: var(--primary) !important;
+}
+
+.text-indigo {
+    color: var(--primary) !important;
+}
+
+.btn-custom-accent {
+    background-color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+.btn-custom-accent:hover {
+    background-color: #e03570 !important;
+    border-color: #e03570 !important;
+    box-shadow: 0 4px 12px rgba(255, 64, 129, 0.3);
+}
+
+/* Corecție pentru butoanele de filtrare din Bootstrap dacă le folosești */
+.filter-btn {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.filter-btn:hover {
+    background-color: var(--primary);
+    color: #fff;
+}

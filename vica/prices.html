@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prețuri | Creative Lab</title>
+    <meta name="description" content="Consultă planurile tarifare oferite de Creative Lab. Soluții de web design, dezvoltare web și SEO adaptate bugetului tău.">
+
+    <!-- Google Fonts & Bootstrap -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="img\logo.png" alt="Logo" width="60" class="me-2 rounded-3">
+                <span>Creative Lab</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Acasă</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portofoliu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Servicii</a></li>
+                    <li class="nav-item"><a class="nav-link" href="process.html">Proces</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="prices.html">Prețuri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER PAGINĂ PREȚURI (Indigo Oficial #3F51B5) -->
+    <header class="bg-custom-indigo text-white text-center py-5 mt-2">
+        <div class="container py-3">
+            <h1 class="fw-bold mb-2">Planuri Tarifare</h1>
+            <p class="text-white-50 max-width-600 mx-auto mb-0">Prețuri transparente, adaptate cerințelor tale. Alege pachetul potrivit pentru afacerea ta.</p>
+        </div>
+    </header>
+
+    <!-- SECȚIUNEA CARDURILOR DE PREȚURI -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-4 align-items-stretch justify-content-center">
+                
+                <!-- Pachetul Basic -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm bg-light text-center">
+                        <div class="mb-3 text-indigo">
+                            <i class="bi bi-file-earmark-code fs-1"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">Landing Page</h3>
+                        <p class="text-muted small mb-4">Ideal pentru lansarea unui produs sau servicii specifice.</p>
+                        <div class="mb-4">
+                            <span class="display-6 fw-bold text-dark">€299</span>
+                            <span class="text-muted small">/ proiect</span>
+                        </div>
+                        <hr class="opacity-10 mb-4">
+                        <ul class="list-unstyled text-start small mb-4 px-3">
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Design pe o singură pagină</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Complet responsive (Mobile + Desktop)</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Formular de contact integrat</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Optimizare de bază pentru viteză</li>
+                            <li class="mb-2 text-muted text-decoration-line-through"><i class="bi bi-x me-2"></i> Panou de administrare</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="contact.html" class="btn btn-outline-primary w-100 filter-btn">Alege Pachetul</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pachetul Pro (Recomandat) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4 border-2 border-primary shadow-sm bg-white text-center position-relative" style="border: 2px solid var(--primary) !important;">
+                        <span class="badge bg-custom-accent text-white position-absolute top-0 start-50 translate-middle text-uppercase px-3 py-2 small rounded-pill">Recomandat</span>
+                        <div class="mb-3 text-accent mt-2">
+                            <i class="bi bi-rocket-takeoff fs-1"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">Site Corporate</h3>
+                        <p class="text-muted small mb-4">Soluția perfectă pentru companii de dimensiuni mici și medii.</p>
+                        <div class="mb-4">
+                            <span class="display-6 fw-bold text-dark">€699</span>
+                            <span class="text-muted small">/ proiect</span>
+                        </div>
+                        <hr class="opacity-10 mb-4">
+                        <ul class="list-unstyled text-start small mb-4 px-3">
+                            <li class="mb-2"><i class="bi bi-check2 text-accent me-2"></i> Până la 5-7 pagini personalizate</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-accent me-2"></i> Panou de administrare inclus (CMS)</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-accent me-2"></i> Integrare Blog / Știri</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-accent me-2"></i> Optimizare SEO On-Page</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-accent me-2"></i> Suport tehnic 30 de zile</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="contact.html" class="btn btn-custom-accent text-white w-100 fw-bold">Alege Pachetul</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pachetul E-commerce -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm bg-light text-center">
+                        <div class="mb-3 text-indigo">
+                            <i class="bi bi-cart3 fs-1"></i>
+                        </div>
+                        <h3 class="h4 fw-bold mb-2">E-Commerce</h3>
+                        <p class="text-muted small mb-4">Un magazin online complet, pregătit pentru vânzări masive.</p>
+                        <div class="mb-4">
+                            <span class="display-6 fw-bold text-dark">€1299</span>
+                            <span class="text-muted small">/ proiect</span>
+                        </div>
+                        <hr class="opacity-10 mb-4">
+                        <ul class="list-unstyled text-start small mb-4 px-3">
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Produse și categorii nelimitate</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Integrare plăți online & procesator SMS</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Configurare module curierat (AWB)</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Panou avansat de gestiune stocuri</li>
+                            <li class="mb-2"><i class="bi bi-check2 text-indigo me-2"></i> Securitate sporită (Certificat SSL)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="contact.html" class="btn btn-outline-primary w-100 filter-btn">Alege Pachetul</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECȚIUNEA ÎNTREBĂRI FRECVENTE (FAQ) -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-2">Întrebări Frecvente</h2>
+                <p class="text-muted">Răspunsuri la cele mai comune curiozități legate de tarifele noastre.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion shadow-sm rounded-4 overflow-hidden" id="accordionFAQ">
+                        
+                        <div class="accordion-item border-0 mb-2 rounded-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Există costuri ascunse în aceste pachete?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body text-muted small bg-white">
+                                    Nu, prețurile stabilite inițial în contract rămân fixe. Singurele costuri externe pe care trebuie să le luați în calcul sunt găzduirea (hosting) și achiziția numelui de domeniu web, pe care le putem configura împreună.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 mb-2 rounded-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Cum se realizează plata proiectului?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body text-muted small bg-white">
+                                    De regulă, plata se împarte în două tranșe: un avans de 40% la semnarea contractului și demararea proiectului, iar restul de 60% se achită la finalizarea și lansarea oficială a site-ului pe server.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Ce se întâmplă dacă am nevoie de modificări după lansare?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                                <div class="accordion-body text-muted small bg-white">
+                                    Fiecare pachet include o perioadă de mentenanță și suport tehnic gratuit. Ulterior, putem semna un abonament lunar de mentenanță sau putem taxa punctual intervențiile viitoare, în funcție de complexitate.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-4 bg-dark text-white opacity-90">
+        <div class="container text-center">
+            <p class="mb-0 small">© 2026 Creative Lab. Toate drepturile rezervate. Elaborat de Granici Victoria.</p>
+        </div>
+    </footer>
+
+    <!-- Buton Back to Top -->
+    <button id="backToTop" class="btn btn-custom-accent text-white position-fixed bottom-0 end-0 m-4 d-none" style="z-index: 1030; transition: opacity 0.3s ease; opacity: 0;">
+        <i class="bi bi-arrow-up-short fs-4"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
