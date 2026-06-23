@@ -7,14 +7,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--dark);
-    padding-top: 75px; /* Spațiu optim pentru navbar fix */
+    padding-top: 75px; 
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
 
-/* NAVBAR AJUSTAT PENTRU LOGO PĂTRAT */
+
 .custom-navbar {
     background-color: var(--primary) !important;
     padding: 10px 0; 
@@ -26,10 +26,10 @@ h1, h2, h3, h4, h5 {
     align-items: center;
 }
 
-/* Logo complet pătrat */
+
 .navbar-brand img {
     object-fit: cover;
-    border-radius: 4px !important; /* Colțuri foarte puțin rotunjite pentru aspect profesional */
+    border-radius: 4px !important; 
 }
 
 .navbar-nav .nav-link {
@@ -43,11 +43,11 @@ h1, h2, h3, h4, h5 {
     color: var(--accent) !important;
 }
 
-/* HERO SECTION AERISIT */
+
 .hero-section {
     background: linear-gradient(135deg, var(--primary) 0%, #2a3b94 100%);
     color: #fff;
-    padding: 60px 0; /* Spațiu mediu, echilibrat */
+    padding: 60px 0; 
 }
 
 .hero-section h1 {
@@ -55,9 +55,9 @@ h1, h2, h3, h4, h5 {
     line-height: 1.2;
 }
 
-/* SECȚIUNI ȘI UTILS */
+
 section {
-    padding: 65px 0; /* Spațierea perfectă sus/jos între blocuri */
+    padding: 65px 0;
 }
 
 .card {
@@ -77,7 +77,7 @@ section {
     font-style: italic;
 }
 
-/* BUTOANE */
+
 .btn-primary {
     background-color: var(--accent);
     border: none;
@@ -94,8 +94,8 @@ section {
     font-weight: 500;
 }
 :root {
-    --primary: #3F51B5;  /* Indigo oficial */
-    --accent: #FF4081;   /* Roz Neon oficial */
+    --primary: #3F51B5; 
+    --accent: #FF4081;   
     --dark: #1a1a1a;
 }
 
@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Poppins', sans-serif;
 }
 
-/* NAVBAR INDIGO */
+
 .custom-navbar {
     background-color: var(--primary) !important;
     padding: 10px 0; 
@@ -121,12 +121,12 @@ h1, h2, h3, h4, h5 {
     border-radius: 4px !important;
 }
 
-/* BACKGROUND CUSTOM PENTRU HEADER */
+
 .bg-custom-indigo {
     background: linear-gradient(135deg, var(--primary) 0%, #2a3b94 100%) !important;
 }
 
-/* BADGE-URI PROIECTE */
+
 .bg-indigo-subtle {
     background-color: rgba(63, 81, 181, 0.1) !important;
 }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5 {
     color: var(--accent) !important;
 }
 
-/* BUTOANE FILTRARE CU PALETA CORECTĂ */
+
 .filter-btn {
     border: 1px solid var(--primary) !important;
     color: var(--primary) !important;
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5 {
     color: white !important;
 }
 
-/* BUTOANE GENERALE ROZ NEON */
+
 .btn-custom-accent {
     background-color: var(--accent) !important;
     border: none !important;
@@ -165,7 +165,6 @@ h1, h2, h3, h4, h5 {
     background-color: #e91e63 !important;
 }
 
-/* EFECT HOVER IMAGINI */
 .project-img-container {
     overflow: hidden;
 }
@@ -175,13 +174,13 @@ h1, h2, h3, h4, h5 {
 .card:hover .project-img-container img {
     transform: scale(1.05);
 }
-/* Culori Globale Custom */
+
 :root {
-    --primary: #3F51B5;       /* Indigo Oficial */
-    --accent: #FF4081;        /* Roz Neon / Accent */
+    --primary: #3F51B5;     
+    --accent: #FF4081;        
 }
 
-/* Clase Utilitare de Culoare */
+
 .bg-custom-indigo {
     background-color: var(--primary) !important;
 }
@@ -203,7 +202,7 @@ h1, h2, h3, h4, h5 {
     box-shadow: 0 4px 12px rgba(255, 64, 129, 0.3);
 }
 
-/* Corecție pentru butoanele de filtrare din Bootstrap dacă le folosești */
+
 .filter-btn {
     color: var(--primary);
     border-color: var(--primary);
