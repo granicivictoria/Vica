@@ -1,11 +1,11 @@
- // Script simplu adăugat local pentru filtrarea dinamică a cardurilor de portofoliu
+
         document.addEventListener("DOMContentLoaded", () => {
             const filterButtons = document.querySelectorAll(".filter-btn");
             const portfolioItems = document.querySelectorAll(".portfolio-item");
 
             filterButtons.forEach(button => {
                 button.addEventListener("click", () => {
-                    // Schimbă starea activă a butoanelor
+                 
                     filterButtons.forEach(btn => btn.classList.remove("active"));
                     button.classList.add("active");
 
